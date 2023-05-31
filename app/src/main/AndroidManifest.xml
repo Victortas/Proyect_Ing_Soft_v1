@@ -15,7 +15,13 @@
         android:theme="@style/Theme.Login"
         tools:targetApi="31">
         <activity
-            android:name=".FeedScreen"
+            android:name=".CreacionDeReportesPrueba"
+            android:exported="false" />
+        <activity
+            android:name=".DescriptionReportPrueba"
+            android:exported="false" />
+        <activity
+            android:name=".FeedScreenV3"
             android:exported="false" />
         <activity
             android:name=".RegistroScreen"

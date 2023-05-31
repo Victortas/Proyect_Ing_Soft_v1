@@ -128,7 +128,7 @@ public class LoginScreen extends AppCompatActivity {
 
                                 }
                             });
-                    Intent intent = new Intent(getApplicationContext(), FeedScreen.class);
+                    Intent intent = new Intent(getApplicationContext(), FeedScreenV3.class);
                     startActivity(intent);
 
                 }else{
